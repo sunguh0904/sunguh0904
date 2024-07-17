@@ -1,8 +1,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=300&section=header&text=U%Hyeon%20%Sung&fontAlignY=40&fontSize=100&fontAlign=60&desc=Hyeon_velop&descAlign=81&descAlignY=55&descSize=30&animation=fadeIn&fontColor=fff"/>
 
-# 흡수하고 방출할 수 있는 개발자 성우현 입니다.
-</br>
-
 ## Skills
 ### FrontEnd
 <spane><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/></span>
