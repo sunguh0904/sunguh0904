@@ -2,8 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=300&section=header&text=U%Hyeon%20%Sung&fontAlignY=40&fontSize=100&fontAlign=60&desc=Hyeon_velop&descAlign=81&descAlignY=55&descSize=30&animation=fadeIn&fontColor=fff"/>
 </div>
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg"/>
-
 <div align="center">
   
   ## Skills
@@ -44,6 +42,8 @@
   <span><img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/></span>
   <span><img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white"/></span>
 </div>
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg"/>
 
 <div align="center">
   
