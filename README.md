@@ -28,8 +28,8 @@
 <span><img src="https://img.shields.io/badge/Git-05032?style=flat&logo=git&logoColor=white"/></span>
 <span><img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white"/></span>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunguh0904&layout=donut&langs_count=10&title_color=FFFACD&text_color=FFFACD&icon_color=FFFACD&bg_color=0D1117&border_color=808080&locale=kr">
-<img src="https://github-readme-stats.vercel.app/api?username=sunguh0904&show_icons=true&theme=dark&title_color=FFFACD&text_color=FFFACD&icon_color=FFFACD&bg_color=0D1117&border_color=808080&locale=kr">
+<span><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunguh0904&layout=donut&langs_count=10&title_color=FFFACD&text_color=FFFACD&icon_color=FFFACD&bg_color=0D1117&border_color=808080&locale=kr"></span>
+<span><img src="https://github-readme-stats.vercel.app/api?username=sunguh0904&show_icons=true&theme=dark&title_color=FFFACD&text_color=FFFACD&icon_color=FFFACD&bg_color=0D1117&border_color=808080&locale=kr"></span>
 
 
 
