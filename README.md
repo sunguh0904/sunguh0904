@@ -43,8 +43,6 @@
   <span><img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white"/></span>
 </div>
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg"/>
-
 <div align="center">
   
   ### Development Environment
@@ -53,6 +51,8 @@
   <span><img src="https://img.shields.io/badge/Git-05032?style=flat&logo=git&logoColor=white"/></span>
   <span><img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white"/></span>
 </div>
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg"/>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunguh0904&layout=donut&langs_count=10&title_color=FFFACD&text_color=FFFACD&icon_color=FFFACD&bg_color=0D1117&border_color=808080&locale=kr">
