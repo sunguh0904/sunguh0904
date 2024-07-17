@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=black&height=300&section=header&text=U%Hyeon%20%Sung&fontAlignY=40&fontSize=100&fontAlign=60&desc=Hyeon_velop&descAlign=81&descAlignY=55&descSize=30&animation=fadeIn&fontColor=fff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=300&section=header&text=U%Hyeon%20%Sung&fontAlignY=40&fontSize=100&fontAlign=60&desc=Hyeon_velop&descAlign=81&descAlignY=55&descSize=30&animation=fadeIn&fontColor=fff"/>
 
 # 흡수하고 방출할 수 있는 개발자 성우현 입니다.
 </br>
@@ -30,3 +30,33 @@
 <span><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/></span>
 <span><img src="https://img.shields.io/badge/Git-05032?style=flat&logo=git&logoColor=white"/></span>
 <span><img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white"/></span>
+
+<img src="https://github-readme-stats.vercel.app/api?username=sunguh0904&show_icons=true&theme=dark&title_color=FFFACD&text_color=FFFACD&icon_color=FFFACD&bg_color=0D1117&border_color=808080&locale=kr">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
