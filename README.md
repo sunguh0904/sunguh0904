@@ -72,3 +72,5 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunguh0904&layout=donut&langs_count=10&title_color=FFFACD&text_color=FFFACD&icon_color=FFFACD&bg_color=0D1117&border_color=808080&locale=kr">
   <img src="https://github-readme-stats.vercel.app/api?username=sunguh0904&show_icons=true&theme=dark&title_color=FFFACD&text_color=FFFACD&icon_color=FFFACD&bg_color=0D1117&border_color=808080&locale=kr">
 </div>
+
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sunguh0904&theme=github&bg_color=0D1117&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
