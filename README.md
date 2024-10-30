@@ -2,6 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=300&section=header&text=U%Hyeon%20%Sung&fontAlignY=40&fontSize=100&fontAlign=60&desc=Hyeon_velop&descAlign=81&descAlignY=55&descSize=30&animation=fadeIn&fontColor=fff"/>
 </div>
 
+<!--
 <table align="center">
   <tr>
     <th style="text-align:center;">Category</th>
@@ -67,6 +68,7 @@
     </td>
   </tr>
 </table>
+-->
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg"/>
 
