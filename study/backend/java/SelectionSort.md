@@ -78,4 +78,4 @@ public class SelectionSort {
 3.	학생 키 순서 줄 세우기
 	- “키가 가장 작은 학생을 맨 앞으로 보내고, 그다음 작은 학생을 선택하는 방식”
 
-[뒤로](java)
+[뒤로](java,md)
