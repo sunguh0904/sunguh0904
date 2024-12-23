@@ -71,4 +71,4 @@ IO(Input/Output)는 컴퓨터와 외부 세계가 대화하는 방법</br>
 2. 주문과 배달
     - 주문을 넣고(입력), 음식을 받는 것(출력)
 
-[뒤로](../README.md#java-study-notes)
+[뒤로](java)

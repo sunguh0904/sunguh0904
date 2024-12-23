@@ -59,4 +59,4 @@ public class BubbleSort {
 3.	공 간 크기 정렬
 	- 크기가 다른 공을 정렬할 때, 옆 공과 비교하며 큰 공을 뒤로 보내는 방식과 비슷
 
-[뒤로](../README.md#java-study-notes)
+[뒤로](java)
