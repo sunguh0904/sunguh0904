@@ -42,6 +42,42 @@
 
 <!-- Study Notes -->
 <h3 align="center">🧑🏻‍💻 Study Notes 🧑🏻‍💻</h3>
+<table align="center" style="width: 100%; table-layout: auto; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th>Frontend</th>
+      <th>Backend</th>
+      <th>Database</th>
+      <th>Deploy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="./frontend/html.md"></a>HTML</td>
+      <td><a href="./backend/java.md">Java</a></td>
+      <td><a href="./database/mysql.md"></a>MySQL</td>
+      <td><a href="./deploy/linux.md"></a>Linux</td>
+    </tr>
+    <tr>
+      <td><a href="./frontend/css.md"></a>CSS</td>
+      <td><a href="./backend/spring.md"></a>Spring</td>
+      <td><a href="./database/jdbc.md"></a>JDBC</td>
+      <td><a href="./deploy/docker.md"></a>Docker</td>
+    </tr>
+    <tr>
+      <td><a href="./frontend/javascript.md"></a>JavaScript</td>
+      <td><a href="./backend/jpa.md"></a>JPA</td>
+      <td><a href="./database/mybatis.md"></a>Mybatis</td>
+      <td><a href="./deploy/aws.md"></a>AWS</td>
+    </tr>
+    <tr>
+      <td><a href="./frontend/react.md"></a>React</td>
+      <td><a href="./backend/rest-api.md"></a>REST API</td>
+      <td><a href="./database/python.md"></a>Python</td>
+      <td><a href="./deploy/cicd.md"></a>CI/CD</td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- <img src="./profile-3d-contrib/profile-night-rainbow.svg"/> -->
 
