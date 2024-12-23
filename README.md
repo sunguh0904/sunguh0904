@@ -42,23 +42,6 @@
 
 <!-- Study Notes -->
 <h3 align="center">🧑🏻‍💻 Study Notes 🧑🏻‍💻</h3>
-<table align="center" style="width: 100%; table-layout: auto; border-collapse: collapse;">
-  <tr>
-    <th style="text-align: center;"><a href="./test/testContext.md">Java</a></th>
-    <th style="text-align: center;">MySQL</th>
-    <th style="text-align: center;">JDBC</th>
-    <th style="text-align: center;">Mybatis</th>
-    <th style="text-align: center;">HTML</th>
-    <th style="text-align: center;">CSS</th>
-    <th style="text-align: center;">JavaScript</th>
-    <th style="text-align: center;">Servlet</th>
-    <th style="text-align: center;">Spring</th>
-    <th style="text-align: center;">JPA</th>
-    <th style="text-align: center;">REST API</th>
-    <th style="text-align: center;">React</th>
-    <th style="text-align: center;">Deploy</th>
-  </tr>
-</table>
 
 <!-- <img src="./profile-3d-contrib/profile-night-rainbow.svg"/> -->
 
