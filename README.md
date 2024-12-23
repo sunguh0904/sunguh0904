@@ -54,7 +54,7 @@
   <tbody>
     <tr>
       <td><a href="./frontend/html.md"></a>HTML</td>
-      <td><a href=".study/backend/java.md">Java</a></td>
+      <td><a href="./study/backend/java.md">Java</a></td>
       <td><a href="./database/mysql.md"></a>MySQL</td>
       <td><a href="./deploy/linux.md"></a>Linux</td>
     </tr>
