@@ -17,4 +17,4 @@
 > ### 비유
 1.
 
-[뒤로](../README.md#java-study-notes)
+[뒤로]()
