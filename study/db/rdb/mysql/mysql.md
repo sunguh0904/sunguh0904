@@ -13,3 +13,4 @@
 12. [GROUP BY: "GROUP BY로 데이터 그룹화하기"](GROUP_BY.md)
 13. [SUBQUERIES: "SUBQUERIES로 서브쿼리 사용하기"](SUBQUERIES.md)
 14. [SET OPERATORS: "SET OPERATORS로 쿼리 결과 결합하기"](SET_OPERATORS.md)
+15. [DML: "DML로 데이터 조작하기"](DML.md)
