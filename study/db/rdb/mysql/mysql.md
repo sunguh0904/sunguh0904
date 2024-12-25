@@ -10,3 +10,4 @@
 9. [DISTINCT: "DISTINCT로 고유한 값 선택하기"](DISTINCT.md)
 10. [LIMIT: "LIMIT로 결과 행 수 제한하기"](LIMIT.md)
 11. [JOIN: "JOIN으로 테이블 결합하기"](JOIN.md)
+12. [GROUP BY: "GROUP BY로 데이터 그룹화하기"](GROUP_BY.md)
