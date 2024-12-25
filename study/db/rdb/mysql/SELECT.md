@@ -1,71 +1,47 @@
 ## SELECT
-> ### SELECT이란?
-SELECT는 데이터베이스에서 "필요한 정보를 꺼내는 명령어"</br>
-비유하자면, "서점에서 원하는 책을 고르는 작업"과 같음</br>
-책이 많은 서점에서 원하는 책을 찾으려면, 책의 제목, 저자, 카테고리 등 조건을 기준으로 선택</br>
-SELECT도 데이터베이스에서 특정 조건에 맞는 데이터를 선택하는 데 사용
+> ### SELECT란?
+SELECT는 데이터베이스에서 데이터를 조회하는 데 사용되는 SQL 명령어</br>
+주로 테이블에서 원하는 데이터를 선택하여 반환하는 데 사용됨
 
-> ### SELECT의 예
-1. 모든 데이터를 선택
-- 테이블에 있는 모든 데이터를 가져옴
-    ```sql
-    SELECT * FROM books;
-    ```
-
-2. 특정 열만 선택
-- 테이블에서 특정 열만 가져옴
-    ```sql
-    SELECT title, author FROM books;
-    ```
-
-3. 조건에 맞는 데이터 선택
-- 조건에 맞는 데이터만 가져옴
-    ```sql
-    SELECT * FROM books WHERE category = 'Fiction';
-    ```
-
-4. 데이터를 정렬
-- 데이터를 특정 순서로 정렬하여 가져옴
-    ```sql
-    SELECT * FROM books ORDER BY title ASC;
-    ```
-
-> ### 코드로 보기
-1. 기본 SELECT 문
-- 모든 직원 데이터를 가져옴
+> ### SELECT의 종류
+1. 기본 SELECT: 테이블의 모든 열을 조회
     ```sql
     SELECT * FROM employees;
     ```
 
-2. 조건문 사용
-- 급여가 5000 이상인 직원의 이름과 급여만 가져옴
+2. 특정 열 SELECT: 테이블의 특정 열을 조회
     ```sql
-    SELECT name, salary FROM employees WHERE salary > 5000;
+    SELECT name, position FROM employees;
     ```
 
-3. 데이터 정렬
-- 급여가 높은 순으로 직원 정보를 가져옴
+3. 조건부 SELECT: 특정 조건을 만족하는 데이터를 조회
     ```sql
-    SELECT name, salary FROM employees ORDER BY salary DESC;
+    SELECT name, position FROM employees WHERE department = 'Sales';
     ```
+
+4. 정렬된 SELECT: 데이터를 특정 열을 기준으로 정렬하여 조회
+    ```sql
+    SELECT name, position FROM employees ORDER BY name ASC;
+    ```
+
+> ### 왜 사용해야 하는가?
+1. **데이터 조회**: SELECT를 사용하면 데이터베이스에서 원하는 데이터를 조회할 수 있음
+2. **데이터 분석**: SELECT를 사용하여 데이터를 분석하고 필요한 정보를 추출할 수 있음
+3. **데이터 검증**: SELECT를 사용하여 데이터의 정확성과 일관성을 검증할 수 있음
 
 > ### 쉬운 요약
-1. SELECT는 "데이터를 꺼내오는 명령어"
-    - 데이터베이스에 저장된 정보를 검색할 때 사용
+1. SELECT는 "데이터베이스에서 데이터를 조회하는 SQL 명령어"
+    - 주로 테이블에서 원하는 데이터를 선택하여 반환하는 데 사용됨
 
-2. 필요한 데이터만 선택 가능
-    - 전체 데이터 또는 특정 조건에 맞는 데이터를 가져옴
-
-3. 정렬, 필터링 드 다양한 기능 제공
-    - 데이터를 원하는 순서나 조건에 맞게 출력할 수 있음
+2. 기본 SELECT, 특정 열 SELECT, 조건부 SELECT, 정렬된 SELECT 등이 있음
 
 > ### 비유
-1. 서점에서 책 찾기
-    - SELECT는 서점에서 "특정 장르의 책"이나 "저자 이름이 같은 책"을 고르는 작업
-    - 예: SELECT * FROM books WHERE author = '홍길동';
+1. 도서관에서 책 찾기
+    - SELECT는 도서관에서 "원하는 책을 찾는 것"과 같음
+    - 예: 특정 주제의 책을 찾기 위해 도서관 카탈로그를 검색
 
-2. 음식점에서 메뉴 선택
-    - 데이터베이스가 음식점 메뉴라면, SELECT는 메뉴판에서 원하는 음식을 선택하는 작업
-    - 예: SELECT * FROM menu WHERE category = '음료';
+2. 메뉴에서 음식 선택
+    - SELECT는 레스토랑에서 "메뉴에서 원하는 음식을 선택하는 것"과 같음
+    - 예: 메뉴에서 특정 요리를 선택하여 주문
 
 [뒤로](mysql.md)

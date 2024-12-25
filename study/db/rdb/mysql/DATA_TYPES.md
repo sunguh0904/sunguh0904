@@ -61,44 +61,10 @@ DATA TYPES는 데이터베이스에서 저장되는 데이터의 종류를 정�
         );
         ```
 
-> ### 코드로 보기
-1. 숫자형 사용
-- 정수형과 고정 소수점 데이터 타입 사용
-    ```sql
-    CREATE TABLE products (
-        product_id INT,
-        price DECIMAL(10, 2)
-    );
-    ```
-
-2. 문자열형 사용
-- 가변 길이 문자열과 긴 문자열 데이터 타입 사용
-    ```sql
-    CREATE TABLE users (
-        user_id INT,
-        username VARCHAR(100),
-        bio TEXT
-    );
-    ```
-
-3. 날짜 및 시간형 사용
-- 날짜와 시간 데이터 타입 사용
-    ```sql
-    CREATE TABLE events (
-        event_id INT,
-        event_date DATE,
-        created_at TIMESTAMP
-    );
-    ```
-
-4. 논리형 사용
-- 논리형 데이터 타입 사용
-    ```sql
-    CREATE TABLE settings (
-        setting_id INT,
-        is_enabled BOOLEAN
-    );
-    ```
+> ### 왜 사용해야 하는가?
+1. **데이터 저장 형식 정의**: DATA TYPES를 사용하면 데이터베이스에서 저장되는 데이터의 형식을 정의할 수 있음
+2. **데이터 무결성 유지**: 데이터의 형식과 제약 조건을 정의하여 데이터 무결성을 유지할 수 있음
+3. **효율적인 데이터 관리**: 데이터의 저장 형식을 정의하여 효율적으로 데이터를 관리할 수 있음
 
 > ### 쉬운 요약
 1. DATA TYPES는 "데이터베이스에서 저장되는 데이터의 종류를 정의하는 속성"

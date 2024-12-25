@@ -46,53 +46,10 @@ CONSTRAINTS는 데이터베이스 테이블의 데이터 무결성을 보장하�
     );
     ```
 
-> ### 코드로 보기
-1. PRIMARY KEY 사용
-- 테이블의 각 행을 고유하게 식별
-    ```sql
-    CREATE TABLE departments (
-        id INT PRIMARY KEY,
-        name VARCHAR(100)
-    );
-    ```
-
-2. FOREIGN KEY 사용
-- 한 테이블의 열이 다른 테이블의 PRIMARY KEY를 참조
-    ```sql
-    CREATE TABLE projects (
-        project_id INT PRIMARY KEY,
-        department_id INT,
-        FOREIGN KEY (department_id) REFERENCES departments(id)
-    );
-    ```
-
-3. UNIQUE 사용
-- 열의 모든 값이 고유하도록 설정
-    ```sql
-    CREATE TABLE accounts (
-        account_id INT PRIMARY KEY,
-        username VARCHAR(100) UNIQUE
-    );
-    ```
-
-4. CHECK 사용
-- 열의 값이 특정 조건을 만족하도록 설정
-    ```sql
-    CREATE TABLE inventory (
-        item_id INT PRIMARY KEY,
-        quantity INT,
-        CHECK (quantity >= 0)
-    );
-    ```
-
-5. DEFAULT 사용
-- 열의 기본값을 설정
-    ```sql
-    CREATE TABLE memberships (
-        membership_id INT PRIMARY KEY,
-        start_date DATE DEFAULT CURRENT_DATE
-    );
-    ```
+> ### 왜 사용해야 하는가?
+1. **데이터 무결성 보장**: CONSTRAINTS를 사용하면 데이터의 무결성을 보장할 수 있음
+2. **데이터 고유성 유지**: PRIMARY KEY, UNIQUE 등을 사용하여 데이터의 고유성을 유지할 수 있음
+3. **참조 무결성 유지**: FOREIGN KEY를 사용하여 테이블 간의 참조 무결성을 유지할 수 있음
 
 > ### 쉬운 요약
 1. CONSTRAINTS는 "데이터베이스 테이블의 데이터 무결성을 보장하는 규칙"

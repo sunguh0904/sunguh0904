@@ -28,33 +28,10 @@ DDL(Data Definition Language)은 데이터베이스의 구조를 정의하고 �
     TRUNCATE TABLE employees;
     ```
 
-> ### 코드로 보기
-1. CREATE 사용
-- 새로운 테이블 생성
-    ```sql
-    CREATE TABLE departments (
-        id INT PRIMARY KEY,
-        name VARCHAR(100)
-    );
-    ```
-
-2. ALTER 사용
-- 테이블에 새로운 열 추가
-    ```sql
-    ALTER TABLE departments ADD COLUMN location VARCHAR(100);
-    ```
-
-3. DROP 사용
-- 테이블 삭제
-    ```sql
-    DROP TABLE departments;
-    ```
-
-4. TRUNCATE 사용
-- 테이블의 모든 데이터 삭제
-    ```sql
-    TRUNCATE TABLE departments;
-    ```
+> ### 왜 사용해야 하는가?
+1. **데이터베이스 구조 정의**: DDL을 사용하면 데이터베이스의 구조를 정의하고 관리할 수 있음
+2. **데이터 무결성 유지**: 데이터베이스 객체의 생성, 변경, 삭제를 통해 데이터 무결성을 유지할 수 있음
+3. **효율적인 데이터 관리**: 데이터베이스 구조를 효율적으로 관리하여 성능을 최적화할 수 있음
 
 > ### 쉬운 요약
 1. DDL은 "데이터베이스의 구조를 정의하고 관리하는 언어"
