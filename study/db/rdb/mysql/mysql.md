@@ -17,3 +17,4 @@
 16. [TRANSACTION: "TRANSACTION으로 데이터 무결성 유지하기"](TRANSACTION.md)
 17. [DDL: "DDL로 데이터베이스 구조 정의하기"](DDL.md)
 18. [CONSTRAINTS: "CONSTRAINTS로 데이터 무결성 보장하기"](CONSTRAINTS.md)
+19. [DATA TYPES: "DATA TYPES로 데이터 종류 정의하기"](DATA_TYPES.md)
