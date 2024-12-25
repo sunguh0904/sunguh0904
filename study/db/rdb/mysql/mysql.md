@@ -8,3 +8,4 @@
 7. [Logical Operators: "논리 연산자로 조건 결합하기"](Logical_Operators.md)
 8. [IN: "IN으로 특정 값 목록과 일치하는 데이터 선택하기"](IN.md)
 9. [DISTINCT: "DISTINCT로 고유한 값 선택하기"](DISTINCT.md)
+10. [LIMIT: "LIMIT로 결과 행 수 제한하기"](LIMIT.md)
