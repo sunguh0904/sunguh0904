@@ -6,3 +6,4 @@
 5. [LIKE: "LIKE로 패턴 매칭 데이터 검색하기"](LIKE.md)
 6. [BETWEEN: "BETWEEN으로 범위 내 데이터 선택하기"](BETWEEN.md)
 7. [Logical Operators: "논리 연산자로 조건 결합하기"](Logical_Operators.md)
+8. [IN: "IN으로 특정 값 목록과 일치하는 데이터 선택하기"](IN.md)
