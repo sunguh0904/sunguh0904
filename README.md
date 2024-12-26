@@ -61,7 +61,7 @@
     <tr>
       <td><a href="./frontend/css.md"></a>CSS</td>
       <td><a href="./backend/spring.md"></a>Spring</td>
-      <td><a href="./database/jdbc.md"></a>JDBC</td>
+      <td><a href="./study/backend/jdbc/JDBC.md">JDBC</a></td>
       <td><a href="./deploy/docker.md"></a>Docker</td>
     </tr>
     <tr>
