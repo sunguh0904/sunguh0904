@@ -3,20 +3,17 @@
 VIEW는 하나 이상의 테이블에서 데이터를 조회하는 데 사용되는 가상 테이블</br>
 실제 데이터를 저장하지 않고, 쿼리의 결과를 저장하는 데 사용됨
 
-> ### VIEW의 특징
-1. 데이터 보안: 민감한 데이터를 숨기고 필요한 데이터만 노출
-2. 간편한 쿼리: 복잡한 쿼리를 단순화하여 재사용 가능
-3. 데이터 일관성: 여러 테이블의 데이터를 일관되게 조회
-
-> ### VIEW의 종류
+> ### VIEW의 주요 기능
 1. 단순 뷰(Simple View): 하나의 테이블에서 데이터를 조회
     ```sql
+    -- employees 테이블에서 name과 position 열을 조회하는 단순 뷰 생성
     CREATE VIEW simple_view AS
     SELECT name, position FROM employees;
     ```
 
 2. 복합 뷰(Complex View): 여러 테이블에서 데이터를 조회
     ```sql
+    -- employees와 departments 테이블을 결합하여 데이터를 조회하는 복합 뷰 생성
     CREATE VIEW complex_view AS
     SELECT e.name, e.position, d.name AS department
     FROM employees e
@@ -25,6 +22,7 @@ VIEW는 하나 이상의 테이블에서 데이터를 조회하는 데 사용되
 
 3. 업데이트 가능한 뷰(Updatable View): 뷰를 통해 데이터 업데이트 가능
     ```sql
+    -- position이 'Manager'인 데이터를 조회하는 업데이트 가능한 뷰 생성
     CREATE VIEW updatable_view AS
     SELECT id, name FROM employees
     WHERE position = 'Manager';
