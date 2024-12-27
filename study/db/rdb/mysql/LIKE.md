@@ -3,14 +3,16 @@
 LIKE는 데이터베이스에서 특정 패턴과 일치하는 데이터를 선택하는 데 사용되는 연산자</br>
 주로 WHERE 절에서 사용
 
-> ### LIKE의 종류
-1. 특정 패턴과 일치하는 데이터 선택
+> ### LIKE의 주요 기능
+1. 특정 패턴과 일치하는 데이터 선택: 와일드카드 문자를 사용하여 패턴을 지정
     ```sql
+    -- name이 'J'로 시작하는 데이터를 조회
     SELECT * FROM employees WHERE name LIKE 'J%';
     ```
 
-2. 특정 패턴과 일치하지 않는 데이터 선택
+2. 특정 패턴과 일치하지 않는 데이터 선택: NOT LIKE를 사용하여 패턴과 일치하지 않는 데이터를 조회
     ```sql
+    -- name이 'J'로 시작하지 않는 데이터를 조회
     SELECT * FROM employees WHERE name NOT LIKE 'J%';
     ```
 
