@@ -47,5 +47,6 @@ JDBC(Java Database Connectivity)는 자바에서 데이터베이스에 접속하
     - 예: 편지를 작성하고, 우체국에 보내고, 수신자가 편지를 받는 과정
 
 ## 추가 자료
+1. [JDBC Connection 클래스: 데이터베이스와의 연결을 나타내는 클래스](Connection.md)
 
 [뒤로](/README.md)
