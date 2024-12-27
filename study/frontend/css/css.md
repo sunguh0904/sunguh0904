@@ -72,5 +72,6 @@ CSS(Cascading Style Sheets)는 웹 페이지의 스타일을 정의하고, HTML 
 
 ## 추가 자료
 1. [CSS Selectors: 선택자](Selectors.md)
+2. [CSS Font Styles: 글꼴 스타일](FontStyles.md)
 
 [뒤로](/README.md)
