@@ -1,6 +1,4 @@
 # MyBatis Study Notes
-
-## MyBatis
 > ### MyBatis란?
 MyBatis는 자바 객체와 SQL 데이터베이스를 연결해주는 퍼시스턴스 프레임워크</br>
 주로 SQL 매핑을 통해 데이터베이스와의 상호작용을 단순화함

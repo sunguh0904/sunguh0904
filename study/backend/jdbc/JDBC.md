@@ -1,4 +1,4 @@
-## JDBC
+# JDBC Study Notes
 > ### JDBC 란?
 JDBC(Java Database Connectivity)는 자바에서 데이터베이스에 접속하고 SQL 쿼리를 실행하기 위한 API
 
@@ -45,5 +45,7 @@ JDBC(Java Database Connectivity)는 자바에서 데이터베이스에 접속하
 2. 우편 서비스
     - JDBC는 우편 서비스에서 "편지를 작성하고, 보내고, 받는 과정"과 같음
     - 예: 편지를 작성하고, 우체국에 보내고, 수신자가 편지를 받는 과정
+
+## 추가 자료
 
 [뒤로](/README.md)
