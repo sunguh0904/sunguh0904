@@ -37,6 +37,30 @@ Dynamic SQL Mapper는 MyBatis에서 조건에 따라 동적으로 SQL 쿼리를 
     </trim>
     ```
 
+### 동적 SQL 사용 전후 비교
+
+#### 동적 SQL 사용 전
+```xml
+<select id="findActiveBlogWithTitleLike" resultType="Blog">
+    SELECT * FROM BLOG
+    WHERE state = 'ACTIVE'
+    AND title like #{title}
+</select>
+```
+- `title`이 null일 경우에도 조건이 추가되어 불필요한 쿼리가 실행됨
+
+#### 동적 SQL 사용 후
+```xml
+<select id="findActiveBlogWithTitleLike" resultType="Blog">
+    SELECT * FROM BLOG
+    WHERE state = 'ACTIVE'
+    <if test="title != null">
+        AND title like #{title}
+    </if>
+</select>
+```
+- `title`이 null일 경우 조건이 추가되지 않아 효율적인 쿼리가 실행됨
+
 > ### 왜 사용해야 하는가?
 1. **유연성**: 다양한 조건에 맞는 SQL 쿼리를 동적으로 생성할 수 있음
 2. **코드 간결화**: 복잡한 조건문을 간결하게 처리할 수 있음
