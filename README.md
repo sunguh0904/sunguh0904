@@ -65,7 +65,7 @@
       <td><a href="./deploy/docker.md"></a>Docker</td>
     </tr>
     <tr>
-      <td><a href="./frontend/javascript.md"></a>JavaScript</td>
+      <td><a href="/study/frontend/javascript/javascript.md">JavaScript</a></td>
       <td><a href="./backend/jpa.md"></a>JPA</td>
       <td><a href="./study/backend/mybatis/MyBatis.md">MyBatis</a></td>
       <td><a href="./deploy/aws.md"></a>AWS</td>
