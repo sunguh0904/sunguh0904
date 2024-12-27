@@ -3,14 +3,16 @@
 IN은 데이터베이스에서 특정 값 목록에 포함된 데이터를 선택하는 데 사용되는 연산자</br>
 주로 WHERE 절에서 사용
 
-> ### IN의 종류
-1. 특정 값 목록에 포함된 데이터 선택
+> ### IN의 주요 기능
+1. 특정 값 목록에 포함된 데이터 선택: 여러 값 중 하나와 일치하는 데이터를 조회
     ```sql
+    -- department가 'Sales' 또는 'Marketing'인 데이터를 조회
     SELECT * FROM employees WHERE department IN ('Sales', 'Marketing');
     ```
 
-2. 서브쿼리를 사용한 IN
+2. 서브쿼리를 사용한 IN: 서브쿼리를 사용하여 동적으로 값 목록을 생성
     ```sql
+    -- department_id가 New York에 위치한 부서의 id와 일치하는 데이터를 조회
     SELECT * FROM employees WHERE department_id IN (SELECT id FROM departments WHERE location = 'New York');
     ```
 
