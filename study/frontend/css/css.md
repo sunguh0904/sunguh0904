@@ -71,6 +71,6 @@ CSS(Cascading Style Sheets)는 웹 페이지의 스타일을 정의하고, HTML 
     - 예: 건물의 외관을 꾸미고, 레이아웃을 설정하는 것처럼, CSS로 웹 페이지의 디자인과 레이아웃을 설정
 
 ## 추가 자료
-
+1. [CSS Selectors: 선택자](Selectors.md)
 
 [뒤로](/README.md)
