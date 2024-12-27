@@ -54,5 +54,6 @@ MyBatis는 자바 객체와 SQL 데이터베이스를 연결해주는 퍼시스�
 2. [Configuration 클래스: MyBatis 설정 정보를 관리하는 클래스](Configuration.md)
 3. [SqlSessionFactory와 SqlSessionFactoryBuilder 클래스: SQL 세션을 생성하고 관리하는 클래스](SqlSessionFactory.md)
 4. [SqlSession 클래스: SQL 쿼리를 실행하고 데이터베이스와 상호작용하는 클래스](SqlSession.md)
+5. [MyBatis 설정 XML 파일 작성 방법](ConfigXml.md)
 
 [뒤로](/README.md)
