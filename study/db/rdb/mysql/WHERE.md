@@ -3,14 +3,16 @@
 WHERE는 데이터베이스에서 조건에 맞는 데이터를 선택하는 데 사용되는 절</br>
 주로 SELECT, UPDATE, DELETE 문에서 사용
 
-> ### WHERE의 종류
-1. 특정 조건에 맞는 데이터 선택
+> ### WHERE의 주요 기능
+1. 특정 조건에 맞는 데이터 선택: 조건에 맞는 데이터를 조회
     ```sql
+    -- department가 'Sales'인 데이터를 조회
     SELECT * FROM employees WHERE department = 'Sales';
     ```
 
-2. 여러 조건을 결합하여 데이터 선택
+2. 여러 조건을 결합하여 데이터 선택: AND, OR 연산자를 사용하여 여러 조건을 결합
     ```sql
+    -- department가 'Sales'이고 age가 30보다 큰 데이터를 조회
     SELECT * FROM employees WHERE department = 'Sales' AND age > 30;
     ```
 
