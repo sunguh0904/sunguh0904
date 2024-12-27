@@ -3,14 +3,16 @@
 ORDER BY는 데이터베이스에서 데이터를 정렬하는 데 사용되는 절</br>
 주로 SELECT 문에서 사용
 
-> ### ORDER BY의 종류
-1. 오름차순 정렬
+> ### ORDER BY의 주요 기능
+1. 오름차순 정렬: 데이터를 오름차순으로 정렬
     ```sql
+    -- name 열을 기준으로 오름차순 정렬
     SELECT * FROM employees ORDER BY name ASC;
     ```
 
-2. 내림차순 정렬
+2. 내림차순 정렬: 데이터를 내림차순으로 정렬
     ```sql
+    -- name 열을 기준으로 내림차순 정렬
     SELECT * FROM employees ORDER BY name DESC;
     ```
 
