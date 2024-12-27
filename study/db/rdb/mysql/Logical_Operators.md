@@ -3,19 +3,22 @@
 논리 연산자는 데이터베이스에서 여러 조건을 결합하여 사용되는 연산자</br>
 주로 WHERE 절에서 사용
 
-> ### 논리 연산자의 종류
+> ### 논리 연산자의 주요 기능
 1. AND: 모든 조건이 참인 데이터를 선택
     ```sql
+    -- department가 'Sales'이고 age가 30보다 큰 데이터를 조회
     SELECT * FROM employees WHERE department = 'Sales' AND age > 30;
     ```
 
 2. OR: 하나 이상의 조건이 참인 데이터를 선택
     ```sql
+    -- department가 'Sales'이거나 age가 30보다 큰 데이터를 조회
     SELECT * FROM employees WHERE department = 'Sales' OR age > 30;
     ```
 
 3. NOT: 조건이 거짓인 데이터를 선택
     ```sql
+    -- department가 'Sales'가 아닌 데이터를 조회
     SELECT * FROM employees WHERE NOT department = 'Sales';
     ```
 
