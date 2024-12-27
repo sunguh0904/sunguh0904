@@ -3,14 +3,16 @@
 GROUP BY는 데이터베이스에서 데이터를 그룹화하는 데 사용되는 절</br>
 주로 집계 함수와 함께 사용
 
-> ### GROUP BY의 종류
-1. 특정 열을 기준으로 데이터 그룹화
+> ### GROUP BY의 주요 기능
+1. 특정 열을 기준으로 데이터 그룹화: 특정 열을 기준으로 데이터를 그룹화
     ```sql
+    -- department 열을 기준으로 데이터를 그룹화하고 각 그룹의 개수를 조회
     SELECT department, COUNT(*) FROM employees GROUP BY department;
     ```
 
-2. 여러 열을 기준으로 데이터 그룹화
+2. 여러 열을 기준으로 데이터 그룹화: 여러 열을 기준으로 데이터를 그룹화
     ```sql
+    -- department와 job_title 열을 기준으로 데이터를 그룹화하고 각 그룹의 개수를 조회
     SELECT department, job_title, COUNT(*) FROM employees GROUP BY department, job_title;
     ```
 
