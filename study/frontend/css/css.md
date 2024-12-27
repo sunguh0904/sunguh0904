@@ -76,5 +76,6 @@ CSS(Cascading Style Sheets)는 웹 페이지의 스타일을 정의하고, HTML 
 3. [CSS Text Styles: 텍스트 스타일](TextStyles.md)
 4. [CSS Paragraph Styles: 문단 스타일](ParagraphStyles.md)
 5. [CSS List Styles: 목록 스타일](ListStyles.md)
+6. [CSS Background Styles: 배경 스타일](BackgroundStyles.md)
 
 [뒤로](/README.md)
