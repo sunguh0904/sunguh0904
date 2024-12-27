@@ -3,14 +3,16 @@
 INDEX는 데이터베이스에서 검색 성능을 향상시키기 위해 사용되는 데이터 구조</br>
 주로 테이블의 특정 열에 대해 생성
 
-> ### INDEX의 종류
-1. 기본 인덱스 생성
+> ### INDEX의 주요 기능
+1. 기본 인덱스 생성: 특정 열에 대해 인덱스를 생성
     ```sql
+    -- name 열에 대해 기본 인덱스를 생성
     CREATE INDEX idx_name ON employees(name);
     ```
 
-2. 고유 인덱스 생성
+2. 고유 인덱스 생성: 특정 열에 대해 중복을 허용하지 않는 인덱스를 생성
     ```sql
+    -- name 열에 대해 고유 인덱스를 생성
     CREATE UNIQUE INDEX idx_unique_name ON employees(name);
     ```
 
