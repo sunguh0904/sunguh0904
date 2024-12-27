@@ -3,34 +3,40 @@
 비교 연산자는 데이터베이스에서 두 값을 비교하는 데 사용되는 연산자</br>
 주로 WHERE 절에서 조건을 지정할 때 사용
 
-> ### 비교 연산자의 종류
+> ### 비교 연산자의 주요 기능
 1. `=`: 두 값이 같은지 비교
     ```sql
+    -- age가 30인 데이터를 조회
     SELECT * FROM employees WHERE age = 30;
     ```
 
 2. `!=` 또는 `<>`: 두 값이 다른지 비교
     ```sql
+    -- age가 30이 아닌 데이터를 조회
     SELECT * FROM employees WHERE age != 30;
     ```
 
 3. `>`: 왼쪽 값이 오른쪽 값보다 큰지 비교
     ```sql
+    -- salary가 5000보다 큰 데이터를 조회
     SELECT * FROM employees WHERE salary > 5000;
     ```
 
 4. `<`: 왼쪽 값이 오른쪽 값보다 작은지 비교
     ```sql
+    -- salary가 5000보다 작은 데이터를 조회
     SELECT * FROM employees WHERE salary < 5000;
     ```
 
 5. `>=`: 왼쪽 값이 오른쪽 값보다 크거나 같은지 비교
     ```sql
+    -- age가 30보다 크거나 같은 데이터를 조회
     SELECT * FROM employees WHERE age >= 30;
     ```
 
 6. `<=`: 왼쪽 값이 오른쪽 값보다 작거나 같은지 비교
     ```sql
+    -- age가 30보다 작거나 같은 데이터를 조회
     SELECT * FROM employees WHERE age <= 30;
     ```
 
