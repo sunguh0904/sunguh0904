@@ -57,5 +57,6 @@ MyBatis는 자바 객체와 SQL 데이터베이스를 연결해주는 퍼시스�
 5. [MyBatis 설정 XML 파일 작성 방법](ConfigXml.md)
 6. [MyBatis Configuration XML Tags: MyBatis 설정 XML 태그](ConfigurationXmlTags.md)
 7. [Mapper 클래스: SQL 쿼리를 자바 인터페이스로 매핑하는 클래스](Mapper.md)
+8. [MyBatis Cache: 쿼리 결과를 캐싱하는 방법](Cache.md)
 
 [뒤로](/README.md)
