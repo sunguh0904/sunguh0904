@@ -68,10 +68,11 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
     - 예: 요리사가 재료를 조작하고, 요리를 완성하는 것처럼, JavaScript로 웹 페이지의 요소를 조작하고, 동작을 구현
 
 ## 추가 자료
-1. [JavaScript Variables: 변수](Variables.md)
-2. [JavaScript Operators: 연산자](Operators.md)
-3. [JavaScript Object Literals: 객체 리터럴](ObjectLiterals.md)
-4. [JavaScript Properties: 속성](Properties.md)
-5. [JavaScript Additional Operators and Traversal: 추가 연산자와 순회](AdditionalOperatorsAndTraversal.md)
+1. [Variables: "변수로 데이터 저장하기"](Variables.md)
+2. [Operators: "연산자로 값 계산하기"](Operators.md)
+3. [Object Literals: "객체 리터럴로 데이터 구조화하기"](ObjectLiterals.md)
+4. [Properties: "속성으로 객체 데이터 관리하기"](Properties.md)
+5. [Additional Operators and Traversal: "추가 연산자와 순회로 데이터 탐색하기"](AdditionalOperatorsAndTraversal.md)
+6. [Functions: "함수로 코드 재사용하기"](Functions.md)
 
 [뒤로](/README.md)
