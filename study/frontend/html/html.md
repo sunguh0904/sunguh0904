@@ -6,6 +6,7 @@ HTML(HyperText Markup Language)은 웹 페이지를 구성하는 데 사용되�
 > ### HTML의 주요 기능
 1. 웹 페이지 구조 정의: HTML 태그를 사용하여 웹 페이지의 구조를 정의
     ```html
+    <!-- HTML 문서의 기본 구조를 정의 -->
     <!DOCTYPE html>
     <html>
     <head>
@@ -20,6 +21,7 @@ HTML(HyperText Markup Language)은 웹 페이지를 구성하는 데 사용되�
 
 2. 텍스트 포맷팅: HTML 태그를 사용하여 텍스트를 포맷팅
     ```html
+    <!-- 제목과 단락을 정의 -->
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <p>This is a <strong>bold</strong> text.</p>
@@ -27,16 +29,19 @@ HTML(HyperText Markup Language)은 웹 페이지를 구성하는 데 사용되�
 
 3. 링크 생성: HTML 태그를 사용하여 다른 페이지나 리소스로의 링크 생성
     ```html
+    <!-- 다른 페이지로의 링크를 생성 -->
     <a href="https://www.example.com">Visit Example</a>
     ```
 
 4. 이미지 삽입: HTML 태그를 사용하여 웹 페이지에 이미지 삽입
     ```html
+    <!-- 웹 페이지에 이미지를 삽입 -->
     <img src="image.jpg" alt="Example Image">
     ```
 
 5. 폼 생성: HTML 태그를 사용하여 사용자 입력을 받을 수 있는 폼 생성
     ```html
+    <!-- 사용자 입력을 받을 수 있는 폼을 생성 -->
     <form action="/submit" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name">
@@ -65,5 +70,6 @@ HTML(HyperText Markup Language)은 웹 페이지를 구성하는 데 사용되�
     - 예: 책의 각 장과 페이지를 정의
 
 ## 추가 자료
+1. [HTML Text Tags: 글자 관련 태그](TextTags.md)
 
 [뒤로](/README.md)
