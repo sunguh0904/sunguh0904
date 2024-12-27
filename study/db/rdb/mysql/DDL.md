@@ -1,11 +1,12 @@
 ## DDL
-> ### DDL 이란?
+> ### DDL이란?
 DDL(Data Definition Language)은 데이터베이스의 구조를 정의하고 관리하는 데 사용되는 언어</br>
 주로 CREATE, ALTER, DROP, TRUNCATE 등이 있음
 
-> ### DDL의 종류
+> ### DDL의 주요 기능
 1. CREATE: 새로운 데이터베이스 객체(테이블, 인덱스 등)를 생성
     ```sql
+    -- employees 테이블을 생성
     CREATE TABLE employees (
         id INT PRIMARY KEY,
         name VARCHAR(100),
@@ -15,16 +16,19 @@ DDL(Data Definition Language)은 데이터베이스의 구조를 정의하고 �
 
 2. ALTER: 기존 데이터베이스 객체의 구조를 변경
     ```sql
+    -- employees 테이블에 salary 열을 추가
     ALTER TABLE employees ADD COLUMN salary INT;
     ```
 
 3. DROP: 기존 데이터베이스 객체를 삭제
     ```sql
+    -- employees 테이블을 삭제
     DROP TABLE employees;
     ```
 
 4. TRUNCATE: 테이블의 모든 데이터를 삭제하지만 구조는 유지
     ```sql
+    -- employees 테이블의 모든 데이터를 삭제
     TRUNCATE TABLE employees;
     ```
 
