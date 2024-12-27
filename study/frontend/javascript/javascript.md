@@ -72,5 +72,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 2. [JavaScript Operators: 연산자](Operators.md)
 3. [JavaScript Object Literals: 객체 리터럴](ObjectLiterals.md)
 4. [JavaScript Properties: 속성](Properties.md)
+5. [JavaScript Additional Operators and Traversal: 추가 연산자와 순회](AdditionalOperatorsAndTraversal.md)
 
 [뒤로](/README.md)
