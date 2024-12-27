@@ -3,10 +3,11 @@
 DATA TYPES는 데이터베이스에서 저장되는 데이터의 종류를 정의하는 데 사용되는 속성</br>
 주로 숫자형, 문자열형, 날짜 및 시간형, 논리형 등이 있음
 
-> ### DATA TYPES의 종류
+> ### DATA TYPES의 주요 기능
 1. 숫자형(Numeric Types): 정수, 부동 소수점 등을 포함
     - INT: 정수형 데이터 타입
         ```sql
+        -- id와 value 열을 정수형 데이터 타입으로 정의
         CREATE TABLE example (
             id INT,
             value INT
@@ -14,6 +15,7 @@ DATA TYPES는 데이터베이스에서 저장되는 데이터의 종류를 정�
         ```
     - DECIMAL: 고정 소수점 데이터 타입
         ```sql
+        -- price 열을 고정 소수점 데이터 타입으로 정의
         CREATE TABLE example (
             id INT,
             price DECIMAL(10, 2)
@@ -23,6 +25,7 @@ DATA TYPES는 데이터베이스에서 저장되는 데이터의 종류를 정�
 2. 문자열형(String Types): 문자와 문자열 데이터를 포함
     - VARCHAR: 가변 길이 문자열 데이터 타입
         ```sql
+        -- name 열을 가변 길이 문자열 데이터 타입으로 정의
         CREATE TABLE example (
             id INT,
             name VARCHAR(100)
@@ -30,6 +33,7 @@ DATA TYPES는 데이터베이스에서 저장되는 데이터의 종류를 정�
         ```
     - TEXT: 긴 문자열 데이터 타입
         ```sql
+        -- description 열을 긴 문자열 데이터 타입으로 정의
         CREATE TABLE example (
             id INT,
             description TEXT
@@ -39,6 +43,7 @@ DATA TYPES는 데이터베이스에서 저장되는 데이터의 종류를 정�
 3. 날짜 및 시간형(Date and Time Types): 날짜와 시간 데이터를 포함
     - DATE: 날짜 데이터 타입
         ```sql
+        -- created_date 열을 날짜 데이터 타입으로 정의
         CREATE TABLE example (
             id INT,
             created_date DATE
@@ -46,6 +51,7 @@ DATA TYPES는 데이터베이스에서 저장되는 데이터의 종류를 정�
         ```
     - TIMESTAMP: 날짜와 시간 데이터 타입
         ```sql
+        -- created_at 열을 날짜와 시간 데이터 타입으로 정의
         CREATE TABLE example (
             id INT,
             created_at TIMESTAMP
@@ -55,6 +61,7 @@ DATA TYPES는 데이터베이스에서 저장되는 데이터의 종류를 정�
 4. 논리형(Boolean Types): 참과 거짓 값을 포함
     - BOOLEAN: 논리형 데이터 타입
         ```sql
+        -- is_active 열을 논리형 데이터 타입으로 정의
         CREATE TABLE example (
             id INT,
             is_active BOOLEAN
