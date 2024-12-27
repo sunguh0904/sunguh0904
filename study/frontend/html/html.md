@@ -72,5 +72,6 @@ HTML(HyperText Markup Language)은 웹 페이지를 구성하는 데 사용되�
 ## 추가 자료
 1. [HTML Text Tags: 글자 관련 태그](TextTags.md)
 2. [HTML List Tags: 목록 관련 태그](ListTags.md)
+3. [HTML Table Tags: 표 관련 태그](TableTags.md)
 
 [뒤로](/README.md)
