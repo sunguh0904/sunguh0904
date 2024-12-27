@@ -3,14 +3,16 @@
 BETWEEN은 데이터베이스에서 두 값 사이의 범위에 있는 데이터를 선택하는 데 사용되는 연산자</br>
 주로 WHERE 절에서 사용
 
-> ### BETWEEN의 종류
-1. 특정 범위에 있는 데이터 선택
+> ### BETWEEN의 주요 기능
+1. 특정 범위에 있는 데이터 선택: 두 값 사이의 범위에 있는 데이터를 조회
     ```sql
+    -- age가 20에서 30 사이인 데이터를 조회
     SELECT * FROM employees WHERE age BETWEEN 20 AND 30;
     ```
 
-2. 날짜 범위에 있는 데이터 선택
+2. 날짜 범위에 있는 데이터 선택: 특정 날짜 범위에 있는 데이터를 조회
     ```sql
+    -- hire_date가 2021-01-01에서 2021-12-31 사이인 데이터를 조회
     SELECT * FROM employees WHERE hire_date BETWEEN '2021-01-01' AND '2021-12-31';
     ```
 
