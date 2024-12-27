@@ -3,24 +3,28 @@
 DML(Data Manipulation Language)은 데이터베이스에서 데이터를 조작하는 데 사용되는 언어</br>
 주로 SELECT, INSERT, UPDATE, DELETE 등이 있음
 
-> ### DML의 종류
+> ### DML의 주요 기능
 1. SELECT: 데이터를 조회
     ```sql
+    -- employees 테이블의 모든 데이터를 조회
     SELECT * FROM employees;
     ```
 
 2. INSERT: 데이터를 추가
     ```sql
+    -- employees 테이블에 새로운 데이터를 추가
     INSERT INTO employees (id, name, position) VALUES (1, 'John Doe', 'Manager');
     ```
 
 3. UPDATE: 데이터를 수정
     ```sql
+    -- employees 테이블에서 id가 1인 데이터의 position을 수정
     UPDATE employees SET position = 'Senior Manager' WHERE id = 1;
     ```
 
 4. DELETE: 데이터를 삭제
     ```sql
+    -- employees 테이블에서 id가 1인 데이터를 삭제
     DELETE FROM employees WHERE id = 1;
     ```
 
