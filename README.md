@@ -67,7 +67,7 @@
     <tr>
       <td><a href="./frontend/javascript.md"></a>JavaScript</td>
       <td><a href="./backend/jpa.md"></a>JPA</td>
-      <td><a href="./database/mybatis.md"></a>Mybatis</td>
+      <td><a href="./study/backend/mybatis/MyBatis.md">Mybatis</a></td>
       <td><a href="./deploy/aws.md"></a>AWS</td>
     </tr>
     <tr>
