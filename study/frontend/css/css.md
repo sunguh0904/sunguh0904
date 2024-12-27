@@ -80,5 +80,6 @@ CSS(Cascading Style Sheets)는 웹 페이지의 스타일을 정의하고, HTML 
 7. [CSS Border Styles: 테두리 스타일](BorderStyles.md)
 8. [CSS Layout Styles: 레이아웃 스타일](LayoutStyles.md)
 9. [CSS Transform Styles: 변형 스타일](TransformStyles.md)
+10. [CSS Animation Styles: 애니메이션 스타일](AnimationStyles.md)
 
 [뒤로](/README.md)
