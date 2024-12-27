@@ -69,5 +69,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 
 ## 추가 자료
 1. [JavaScript Variables: 변수](Variables.md)
+2. [JavaScript Operators: 연산자](Operators.md)
 
 [뒤로](/README.md)
