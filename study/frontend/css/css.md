@@ -78,5 +78,6 @@ CSS(Cascading Style Sheets)는 웹 페이지의 스타일을 정의하고, HTML 
 5. [CSS List Styles: 목록 스타일](ListStyles.md)
 6. [CSS Background Styles: 배경 스타일](BackgroundStyles.md)
 7. [CSS Border Styles: 테두리 스타일](BorderStyles.md)
+8. [CSS Layout Styles: 레이아웃 스타일](LayoutStyles.md)
 
 [뒤로](/README.md)
