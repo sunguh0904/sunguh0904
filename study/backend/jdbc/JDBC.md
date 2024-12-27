@@ -48,5 +48,6 @@ JDBC(Java Database Connectivity)는 자바에서 데이터베이스에 접속하
 
 ## 추가 자료
 1. [JDBC Connection 클래스: 데이터베이스와의 연결을 나타내는 클래스](Connection.md)
+2. [JDBC Statement 클래스: SQL 문을 실행하고 결과를 반환하는 클래스](Statement.md)
 
 [뒤로](/README.md)
