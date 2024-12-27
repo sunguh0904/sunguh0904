@@ -74,5 +74,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 4. [Properties: "속성으로 객체 데이터 관리하기"](Properties.md)
 5. [Additional Operators and Traversal: "추가 연산자와 순회로 데이터 탐색하기"](AdditionalOperatorsAndTraversal.md)
 6. [Functions: "함수로 코드 재사용하기"](Functions.md)
+7. [Scope: "스코프로 변수 가시성 관리하기"](Scope.md)
 
 [뒤로](/README.md)
