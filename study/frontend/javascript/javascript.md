@@ -68,5 +68,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
     - 예: 요리사가 재료를 조작하고, 요리를 완성하는 것처럼, JavaScript로 웹 페이지의 요소를 조작하고, 동작을 구현
 
 ## 추가 자료
+1. [JavaScript Variables: 변수](Variables.md)
 
 [뒤로](/README.md)
