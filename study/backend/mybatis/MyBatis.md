@@ -51,5 +51,6 @@ MyBatis는 자바 객체와 SQL 데이터베이스를 연결해주는 퍼시스�
 
 ## 추가 자료
 1. [Environment 클래스: MyBatis 설정을 관리하는 클래스](Environment.md)
+2. [Configuration 클래스: MyBatis 설정 정보를 관리하는 클래스](Configuration.md)
 
 [뒤로](/README.md)
