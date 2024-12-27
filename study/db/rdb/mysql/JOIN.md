@@ -3,9 +3,10 @@
 JOIN은 데이터베이스에서 여러 테이블의 데이터를 결합하여 조회하는 데 사용되는 연산자</br>
 주로 SELECT 문에서 사용
 
-> ### JOIN의 종류
+> ### JOIN의 주요 기능
 1. INNER JOIN: 두 테이블에서 일치하는 데이터를 조회
     ```sql
+    -- employees 테이블과 departments 테이블을 department_id를 기준으로 결합하여 조회
     SELECT employees.name, departments.name
     FROM employees
     INNER JOIN departments ON employees.department_id = departments.id;
@@ -13,6 +14,7 @@ JOIN은 데이터베이스에서 여러 테이블의 데이터를 결합하여 �
 
 2. LEFT JOIN: 왼쪽 테이블의 모든 데이터와 오른쪽 테이블에서 일치하는 데이터를 조회
     ```sql
+    -- employees 테이블의 모든 데이터와 departments 테이블에서 일치하는 데이터를 조회
     SELECT employees.name, departments.name
     FROM employees
     LEFT JOIN departments ON employees.department_id = departments.id;
@@ -20,6 +22,7 @@ JOIN은 데이터베이스에서 여러 테이블의 데이터를 결합하여 �
 
 3. RIGHT JOIN: 오른쪽 테이블의 모든 데이터와 왼쪽 테이블에서 일치하는 데이터를 조회
     ```sql
+    -- departments 테이블의 모든 데이터와 employees 테이블에서 일치하는 데이터를 조회
     SELECT employees.name, departments.name
     FROM employees
     RIGHT JOIN departments ON employees.department_id = departments.id;
@@ -27,6 +30,7 @@ JOIN은 데이터베이스에서 여러 테이블의 데이터를 결합하여 �
 
 4. FULL JOIN: 두 테이블에서 일치하는 데이터와 일치하지 않는 모든 데이터를 조회
     ```sql
+    -- employees 테이블과 departments 테이블의 모든 데이터를 조회
     SELECT employees.name, departments.name
     FROM employees
     FULL JOIN departments ON employees.department_id = departments.id;
