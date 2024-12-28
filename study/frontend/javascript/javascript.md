@@ -97,5 +97,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 4. [Node Properties: "노드 프로퍼티를 사용하여 정보 취득 및 조작하기"](NodeProperties.md)
 5. [Node Modification: "노드를 수정하는 다양한 방법"](NodeModification.md)
 6. [Attributes: "어트리뷰트를 사용하여 요소 속성 관리하기"](Attributes.md)
+7. [Styles: "스타일을 사용하여 요소 꾸미기"](Styles.md)
 
 [뒤로](/README.md)
