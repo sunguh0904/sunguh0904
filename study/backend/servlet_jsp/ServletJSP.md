@@ -79,12 +79,13 @@ Servlet은 자바 코드로 작성된 서버 측 프로그램이고, JSP는 HTML
     - 예: 고객의 주문을 받고, 주문에 따라 요리를 준비하고, 요리를 제공하는 과정
 
 ## 추가 자료
-1. [Servlet & JSP 개요: Servlet과 JSP의 개요](Overview.md)
-2. [Servlet LifeCycle: Servlet의 생명 주기와 구동](ServletLifecycle.md)
-3. [Servlet Method: 데이터 전송 방식에 따른 Servlet 메서드](ServletMethod.md)
-4. [Session & Cookie: 세션과 쿠키 이해하기](SessionCookie.md)
-5. [Filter & Wrapper: 필터와 래퍼 이해하기](FilterWrapper.md)
-6. [Listener: 리스너 이해하기](Listener.md)
-7. [JSP: 자바 서버 페이지 이해하기](JSP.md)
+1. [Servlet & JSP 개요: 기본 개념과 차이점](Overview.md)
+2. [Servlet LifeCycle: 생명 주기와 구동 원리](ServletLifecycle.md)
+3. [Servlet Method: 데이터 전송 방식과 메서드](ServletMethod.md)
+4. [Session & Cookie: 세션과 쿠키의 사용법](SessionCookie.md)
+5. [Filter & Wrapper: 필터와 래퍼의 활용](FilterWrapper.md)
+6. [Listener: 리스너의 역할과 사용법](Listener.md)
+7. [JSP: 자바 서버 페이지의 활용](JSP.md)
+8. [JSP Elements: JSP 요소와 표기법](JSPElements.md)
 
 [뒤로](/README.md)
