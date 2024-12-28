@@ -93,5 +93,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 ### Web
 1. [DOM: "문서 객체 모델로 HTML 문서 조작하기"](DOM.md)
 2. [Get Element Nodes: "다양한 방법으로 요소 노드 취득하기"](GetElementNodes.md)
+3. [Node Traversal: "DOM 트리에서 노드 탐색하기"](NodeTraversal.md)
 
 [뒤로](/README.md)
