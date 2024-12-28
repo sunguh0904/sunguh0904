@@ -87,5 +87,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 17. [Math: "수학적 계산을 위한 Math 객체 사용하기"](Math.md)
 18. [Date: "날짜와 시간을 위한 Date 객체 사용하기"](Date.md)
 19. [RegExp: "정규 표현식으로 문자열 패턴 매칭하기"](RegExp.md)
+20. [String: "문자열을 다루기 위한 String 객체 사용하기"](String.md)
 
 [뒤로](/README.md)
