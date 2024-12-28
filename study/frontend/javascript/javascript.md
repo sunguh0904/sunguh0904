@@ -102,5 +102,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 9. [Event Handlers: "이벤트 핸들러 등록 및 제거하기"](EventHandlers.md)
 10. [Event Objects: "이벤트 객체를 사용하여 이벤트 정보 제공"](EventObjects.md)
 11. [Event Propagation: "이벤트 전파를 통해 다양한 이벤트 처리"](EventPropagation.md)
+12. [Event Default Actions: "브라우저 기본 동작 중단 및 이벤트 전파 방지"](EventDefault.md)
 
 [뒤로](/README.md)
