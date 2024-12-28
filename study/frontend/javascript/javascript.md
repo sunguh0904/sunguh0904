@@ -100,5 +100,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 7. [Styles: "스타일을 사용하여 요소 꾸미기"](Styles.md)
 8. [Events: "이벤트를 사용하여 사용자와 상호작용하기"](Events.md)
 9. [Event Handlers: "이벤트 핸들러 등록 및 제거하기"](EventHandlers.md)
+10. [Event Objects: "이벤트 객체를 사용하여 이벤트 정보 제공"](EventObjects.md)
 
 [뒤로](/README.md)
