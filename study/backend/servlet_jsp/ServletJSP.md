@@ -87,5 +87,6 @@ Servlet은 자바 코드로 작성된 서버 측 프로그램이고, JSP는 HTML
 6. [Listener: 리스너의 역할과 사용법](Listener.md)
 7. [JSP: 자바 서버 페이지의 활용](JSP.md)
 8. [JSP Elements: JSP 요소와 표기법](JSPElements.md)
+9. [JSP 내장 객체: JSP에서 기본 제공하는 객체](JSPImplicitObjects.md)
 
 [뒤로](/README.md)
