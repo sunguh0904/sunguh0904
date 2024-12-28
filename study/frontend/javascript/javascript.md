@@ -78,5 +78,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 8. [Object Constructor Function: "객체 생성자 함수로 객체 생성하기"](ObjectConstructorFunction.md)
 9. [Prototype: "프로토타입으로 객체 상속 구현하기"](Prototype.md)
 10. [Strict Mode: "Strict Mode로 안전한 코드 작성하기"](StrictMode.md)
+11. [Array: "배열로 여러 값 저장하기"](Array.md)
 
 [뒤로](/README.md)
