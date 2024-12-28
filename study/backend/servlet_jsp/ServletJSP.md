@@ -90,5 +90,6 @@ Servlet은 자바 코드로 작성된 서버 측 프로그램이고, JSP는 HTML
 9. [JSP 내장 객체: JSP에서 기본 제공하는 객체](JSPImplicitObjects.md)
 10. [JSP 지시자 태그: 페이지 설정과 포함](JSPDirectiveTags.md)
 11. [JSP Exception 처리: 예외 처리 방법](JSPExceptionHandling.md)
+12. [JSP 디버깅: 오류 종류와 해결 방법](JSPDebugging.md)
 
 [뒤로](/README.md)
