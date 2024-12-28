@@ -68,6 +68,7 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
     - 예: 요리사가 재료를 조작하고, 요리를 완성하는 것처럼, JavaScript로 웹 페이지의 요소를 조작하고, 동작을 구현
 
 ## 추가 자료
+### Core
 1. [Variables: "변수로 데이터 저장하기"](Variables.md)
 2. [Operators: "연산자로 값 계산하기"](Operators.md)
 3. [Object Literals: "객체 리터럴로 데이터 구조화하기"](ObjectLiterals.md)
@@ -88,5 +89,8 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 18. [Date: "날짜와 시간을 위한 Date 객체 사용하기"](Date.md)
 19. [RegExp: "정규 표현식으로 문자열 패턴 매칭하기"](RegExp.md)
 20. [String: "문자열을 다루기 위한 String 객체 사용하기"](String.md)
+
+### Web
+21. [DOM: "문서 객체 모델로 HTML 문서 조작하기"](DOM.md)
 
 [뒤로](/README.md)
