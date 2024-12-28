@@ -91,6 +91,7 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 20. [String: "문자열을 다루기 위한 String 객체 사용하기"](String.md)
 
 ### Web
-21. [DOM: "문서 객체 모델로 HTML 문서 조작하기"](DOM.md)
+1. [DOM: "문서 객체 모델로 HTML 문서 조작하기"](DOM.md)
+2. [Get Element Nodes: "다양한 방법으로 요소 노드 취득하기"](GetElementNodes.md)
 
 [뒤로](/README.md)
