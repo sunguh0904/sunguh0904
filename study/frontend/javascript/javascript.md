@@ -107,5 +107,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 14. [Timer: "타이머 메소드 사용하기"](Timer.md)
 15. [Asynchronous: "비동기 처리 이해하기"](Asynchronous.md)
 16. [BOM: "브라우저 객체 모델 이해하기"](BOM.md)
+17. [Window Methods: "window 메소드 사용하기"](WindowMethods.md)
 
 [뒤로](/README.md)
