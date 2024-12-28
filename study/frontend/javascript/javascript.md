@@ -82,5 +82,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 12. [Array Methods: "배열 메소드로 데이터 조작하기"](ArrayMethods.md)
 13. [Array Higher-Order Functions: "배열 고차 함수로 데이터 처리하기"](ArrayHigherOrderFunctions.md)
 14. [Global Properties: "전역 프로퍼티로 표준화된 값 사용하기"](GlobalProperties.md)
+15. [Global Functions: "전역 함수로 데이터 처리하기"](GlobalFunctions.md)
 
 [뒤로](/README.md)
