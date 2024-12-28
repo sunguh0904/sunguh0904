@@ -54,4 +54,4 @@ HTTP 프로토콜을 통해 데이터를 전송할 때 보통 GET, POST 이 두 
 `key`는 input 태그의 name 값을, `value`는 input 태그의 value 값을 뜻함</br>
 `?`는 Query String의 시작을 의미하며, `&`는 각 데이터 간의 구분자를 뜻함
 
-[뒤로](JSP.md)
+[뒤로](./ServletJSP.md)

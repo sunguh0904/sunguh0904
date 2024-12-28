@@ -111,4 +111,4 @@ JSP 컴파일 시 Servlet으로 변환되어 서비스됨</br>
 3. 설정이 끝나면 서버를 재실행하고 Project Explorer를 갱신하여 생성된 소스코드를 확인
 4. JSP Elements - Java 코드 변환 내용을 확인 (JSP 주석 태그는 컴파일 시 포함되지 않음)
 
-[뒤로](JSP.md)
+[뒤로](./ServletJSP.md)

@@ -38,4 +38,4 @@ JSP 페이지에서 발생하는 Exception을 처리하기 위해 별도의 예�
     - JSP Exception 처리는 "고객 서비스 센터"와 같음
     - 예: 문제가 발생했을 때 고객 서비스 센터가 문제를 해결
 
-[뒤로](JSP.md)
+[뒤로](./ServletJSP.md)
