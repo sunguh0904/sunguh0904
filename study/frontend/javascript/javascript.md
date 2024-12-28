@@ -104,5 +104,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 11. [Event Propagation: "이벤트 전파를 통해 다양한 이벤트 처리"](EventPropagation.md)
 12. [Event Default Actions: "브라우저 기본 동작 중단 및 이벤트 전파 방지"](EventDefault.md)
 13. [Event Samples: "다양한 이벤트 처리 예제"](EventSamples.md)
+14. [Timer: "타이머 메소드 사용하기"](Timer.md)
 
 [뒤로](/README.md)
