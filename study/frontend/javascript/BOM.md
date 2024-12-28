@@ -19,43 +19,117 @@ window 객체는 전역 객체이므로 메서드 호출 시 생략할 수 있�
 alert('Hello, BOM!');
 ```
 
+> ### window.open
+window.open(url, name, params) 메서드는 새 창을 열 수 있음
+
+- url: 새 창에 로드할 URL
+- name: 새 창의 이름으로 해당 이름을 가진 창이 이미 있으면 그 안에서 열리고, 그렇지 않으면 새 창이 열림
+- params: 새 창의 설정을 쉼표로 구분하여 문자열로 전달
+
+```html
+<button id="btn1">새로운 창 열기</button>
+<button id="btn2">새로운 창 열기</button>
+```
+```javascript
+document.getElementById('btn1').onclick = () => window.open('https://www.google.com', 'popup1', 'width=1080, height=800');
+document.getElementById('btn2').onclick = () => window.open('https://www.naver.com', 'popup1');
+```
+
+> ### window.alert
+window.alert(message) 메서드는 확인 버튼을 가지며 메시지를 지정할 수 있는 경고 대화 상자를 띄움
+
+```javascript
+window.alert('alert창입니다!');
+```
+
+> ### window.confirm
+window.confirm(message) 메서드는 확인과 취소 두 버튼을 가지며 메시지를 지정할 수 있는 모달 대화 상자를 띄움</br>
+반환 값은 확인을 누를 시 true, 취소를 누르거나 ESC 키를 누르면 false
+
+```javascript
+const answer = window.confirm('계속하시겠습니까?');
+if (answer) {
+    console.log('잘 선택하셨어요! 가보자고요~');
+} else {
+    console.log('아쉽네요... 다음에 또 만나요~');
+}
+```
+
+> ### window.prompt
+window.prompt(message, default) 메서드는 사용자가 텍스트를 입력할 수 있도록 안내하는 선택적 메시지를 갖고 있는 대화 상자를 띄움</br>
+default: 텍스트 입력 필드에 기본으로 채워넣을 문자열</br>
+반환 값은 확인을 누를 시 사용자가 입력한 문자열이며 취소를 누르거나 ESC 키를 누르면 null
+
+```javascript
+const likeNumber = window.prompt('좋아하는 숫자를 입력하세요', 7);
+if (likeNumber) {
+    console.log(`당신이 좋아하는 숫자는 ${likeNumber}이군요`);
+} else {
+    console.log('값을 입력하지 않으셨군요');
+}
+```
+
 > ### location 객체
 location 객체는 현재 문서의 URL 정보를 제공하고 제어할 수 있는 객체
 
+```html
+<button id="btn1">새 페이지로 이동하기</button>
+<button id="btn2">새 페이지로 이동하기</button>
+<button id="btn3">새 페이지로 이동하기</button>
+<button id="btn4">새 페이지로 이동하기(뒤로 가기 불가)</button>
+<button id="btn5">서버로부터 현재 페이지 리로드하기</button>
+<button id="btn6">서버로부터 현재 페이지 리로드하기</button>
+<button id="btn7">서버로부터 현재 페이지 리로드하기</button>
+```
 ```javascript
-// 현재 URL 정보 출력
-console.log(window.location.href);
-// 새로운 URL로 이동
-window.location.href = 'https://www.example.com';
+document.getElementById('btn1').onclick = () => location.assign("https://www.google.com");
+document.getElementById('btn2').onclick = () => location = "https://www.google.com";
+document.getElementById('btn3').onclick = () => location.href = "https://www.google.com";
+document.getElementById('btn4').onclick = () => location.replace("https://www.google.com");
+document.getElementById('btn5').onclick = () => location.reload();
+document.getElementById('btn6').onclick = () => location = location;
+document.getElementById('btn7').onclick = () => location.href = location.href;
 ```
 
 > ### navigator 객체
-navigator 객체는 브라우저의 정보를 제공하는 객체
+navigator 객체는 브라우저와 운영체제에 대한 정보를 제공하는 객체
 
 ```javascript
-// 브라우저의 사용자 에이전트 정보 출력
-console.log(window.navigator.userAgent);
-// 브라우저의 언어 정보 출력
-console.log(window.navigator.language);
+for (prop in navigator) {
+    console.log(`${prop} : ${navigator[prop]}`);
+}
+console.log(navigator.userAgent);
+console.log(navigator.platform);
 ```
 
 > ### screen 객체
-screen 객체는 사용자의 화면 정보를 제공하는 객체
+screen 객체는 웹 브라우저 화면이 아닌 운영체제 화면의 속성을 가지는 객체
 
 ```javascript
-// 화면의 너비와 높이 출력
-console.log(window.screen.width);
-console.log(window.screen.height);
+for (prop in screen) {
+    console.log(`${prop} : ${screen[prop]}`);
+}
 ```
 
 > ### history 객체
 history 객체는 브라우저의 세션 기록을 제어할 수 있는 객체
 
+```html
+<button id="btn1">뒤로 가기</button>
+<button id="btn2">앞으로 가기</button>
+<input type="number" name="page">
+<button id="btn3">입력한 만큼 이동하기</button>
+```
 ```javascript
-// 뒤로 가기
-window.history.back();
-// 앞으로 가기
-window.history.forward();
+for (prop in history) {
+    console.log(`${prop} : ${history[prop]}`);
+}
+document.getElementById('btn1').onclick = () => history.back();
+document.getElementById('btn2').onclick = () => history.forward();
+document.getElementById('btn3').onclick = function() {
+    let page = document.querySelector('input[name=page]').value;
+    history.go(page);
+};
 ```
 
 > ### 왜 사용해야 하는가?
