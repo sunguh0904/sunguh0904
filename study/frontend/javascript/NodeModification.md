@@ -176,4 +176,22 @@ const $food = document.getElementById('food');
 $food.removeChild($food.lastElementChild);
 ```
 
+> ### 왜 사용해야 하는가?
+1. **유연성**: 다양한 방법으로 노드를 생성, 삽입, 이동, 복사, 교체, 제거할 수 있음
+2. **효율성**: innerHTML, insertAdjacentHTML, DocumentFragment 등을 사용하여 효율적으로 DOM을 조작할 수 있음
+3. **유지보수 용이**: 노드 조작을 코드에서 쉽게 관리하고 유지보수할 수 있음
+
+> ### 쉬운 요약
+1. 노드 조작은 "DOM 트리에서 노드를 생성, 삽입, 이동, 복사, 교체, 제거하는 과정"
+    - innerHTML, insertAdjacentHTML, createElement, appendChild, cloneNode, replaceChild, removeChild 등을 사용
+
+> ### 비유
+1. 레고 블록
+    - 노드 조작은 "레고 블록을 조립하고 분해하는 과정"과 같음
+    - 예: 레고 블록을 추가하고, 이동하고, 복사하고, 교체하고, 제거
+
+2. 요리 재료
+    - 노드 조작은 "요리 재료를 준비하고, 추가하고, 이동하고, 교체하고, 제거하는 과정"과 같음
+    - 예: 요리 재료를 준비하고, 필요한 재료를 추가하고, 불필요한 재료를 제거
+
 [뒤로](javascript.md)
