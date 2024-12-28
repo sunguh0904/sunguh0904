@@ -80,5 +80,6 @@ JavaScript는 웹 페이지의 동작을 제어하고, 사용자와 상호작용
 10. [Strict Mode: "Strict Mode로 안전한 코드 작성하기"](StrictMode.md)
 11. [Array: "배열로 여러 값 저장하기"](Array.md)
 12. [Array Methods: "배열 메소드로 데이터 조작하기"](ArrayMethods.md)
+13. [Array Higher-Order Functions: "배열 고차 함수로 데이터 처리하기"](ArrayHigherOrderFunctions.md)
 
 [뒤로](/README.md)
