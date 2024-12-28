@@ -80,5 +80,6 @@ Servlet은 자바 코드로 작성된 서버 측 프로그램이고, JSP는 HTML
 
 ## 추가 자료
 1. [Servlet & JSP 개요: Servlet과 JSP의 개요](Overview.md)
+2. [Servlet LifeCycle: Servlet의 생명 주기와 구동](ServletLifecycle.md)
 
 [뒤로](/README.md)
