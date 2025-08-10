@@ -3,10 +3,10 @@
 </div>
 
 <!-- Tech Stack -->
-<h3 align="center">📚 Tech Stack 📚</h3>
+<!-- <h3 align="center">📚 Tech Stack 📚</h3>
 
 <!-- frontend skills-->
-<div align="center">
+<!-- <div align="center">
   <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/css3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=000000" />
@@ -14,7 +14,7 @@
 </div>
 
 <!-- backend skills-->
-<div align="center">
+<!-- <div align="center">
   <img src="https://img.shields.io/badge/JAVA-FF9E0F.svg?style=for-the-badge&logo=openjdk&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/spring-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=ffffff" />
@@ -22,18 +22,18 @@
 </div>
 
 <!-- database skills-->
-<div align="center">
+<!-- <div align="center">
   <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=ffffff" />
 </div>
 
 <!-- ai skills-->
-<div align="center">
+<!-- <div align="center">
   <img src="https://img.shields.io/badge/opencv-5C3EE8.svg?style=for-the-badge&logo=opencv&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/openai-412991.svg?style=for-the-badge&logo=openai&logoColor=ffffff" />
 </div>
 
 <!-- Tools -->
-<h3 align="center">🛠 Tools 🛠</h3>
+<!-- <h3 align="center">🛠 Tools 🛠</h3>
 <div align="center">
   <img src="https://img.shields.io/badge/git-F05032.svg?style=for-the-badge&logo=git&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=ffffff" />
